@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+    	.faq{
+    		width: 50%;
+    		margin: 0 auto;
+    	}
+    	.answer{
+    		display: none;
+    	}
+    	.Question{
+    		cursor: pointer;
+    		color: blue;
+    	}
+    </style>
+</head>
+<body >
+  <div class="faq">
+  	<h1>Frequently Asked Question</h1>
+  	<h2 class="Question">How to book a stay in ___________ Hotels?</h2>
+  	<div class="answer"> 
+  		<p style="color: #d6c6b2;">Online Booking :</p>
+        Take advantage of our online booking service and reserve your rooms today, click here You can also email us your reservation details at [email protected]
+ 
+        <p style="color: #d6c6b2">Phone Booking :</p>
+        Ginger offers you the convenience of booking a room over the telephone with the help of our travel advisors. Call us at 1860-266-3333 all days of the week 24/7.
+ 
+        <p style="color: #d6c6b2">Group Bookings :</p>
+        Wish to make a booking for 7 rooms or more? Please<span><a href="#" style="color: #d6c6b2">click here</a></span>
+ 
+        <p style="color: #d6c6b2">Standard Terms & Conditions:</p>
+        <p style="color: #d6c6b2">Check In/Out</p>
+        "Check in is at 14 hrs and checkout out is at 12 hrs. Early arrival and late departure is subject to availability of rooms and at an additional cost."
+ 
+        <p style="color: #d6c6b2">Cancellation Policy:</p>
+        (Cancellation policy will differ during blackout period and promotional Sale offer. Kindly check the Policy at the time of booking)
+        <ul>
+        	<li>Cancellation received 24 Hours prior to Check-in Time - No charge applicable.</li>
+          <li> Cancellation received between 0 Hours to 24 Hours of check-in time - 100 % Charge of one night's tariff will be applicable.</li>
+        <li>Please note the refund will be processed within 15 working days post sending an email request is sent to the concerned hotel and [email protected] with reservation number of the cancelled booking. If in case the payment for the Cancelled booking has been done through NEFT mode of payment, please share a scan copy of a cancelled cheque to the hotel's email and [email protected] along with the reservation number of the booking.</li>
+        </ul>
+        <p style="color: #d6c6b2">Service Charge:</p>
+        <ul>
+        	<li>Discretionary 7% Service Charge on room and other services is applicable</li>
+        <li>Waived off on dissatisfaction with the services</li>
+        </ul>
+        <p style="color: #d6c6b2">No Show Policy:</p>
+       <ul><li> In-case of No-show 100% charge for the first night will be applicable</li></ul>
+  </div>
+  	<h2 class="Question">What are the documents that are required during Check-in?</h2>
+  	<div class="answer">
+  		In keeping with our heightened security procedures we request you to kindly present the government approved photo identity proof with address of you and your companion(s) (if any) while checking-in. Foreign nationals are required to present their Passport and valid Visa. Indian nationals can present any one of these, which is mandatory: Passport, Driving License, Voter ID card, Aadhar Card bearing the holder's photograph and address.n
+  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  	</div>
+  	<h2 class="Question">Here's what you can expect at __________ Hotels</h2>
+  	<div class="answer">
+  		<p style="color: #d6c6b2">What are the additional amenities and services that Ginger Hotels offer?</p>
+  		<ul>
+        <li>The Square Meal Restaurant and In room Dining service</li>
+        <li>Wi Fi and Net zone</li>
+        <li>Fitness Centre</li>
+        <li>Meeting room / Conference room</li>
+        <li>Water dispenser</li>
+        <li>_________ Mart – Items which you might forget to carry during your travel e.g. Dental Kit, Razor etc.</li>
+        <li>Ironing and Laundry service</li>
+        <li>Iron and Iron Board</li>
+        <li>Local Travel Assistance, Car rentals and ATM (at select locations).</li>
+        <li>Cafe Coffee Day (At select locations)</li>
+    </ul>
+  	</div>
+  	<h2 class="Question">What are the extra services that Ginger Hotels offer?</h2>
+  	<div class="answer">
+  		We offer upright services in terms of security, cleanliness, and hygiene. We have smartly built spaces designed keeping in mind the needs of frequent travelers at __________ Hotels.
+  	</div>
+  	<h2 class="Question">Can we avail of any special offers at ___________ Hotels?</h2>
+  	<div class="answer">
+  		Yes we have special offers for all our locations. Please visit the Specials section on our website www.gingerhotels.com or call us on 1860 266 3333 for more details.
+  	</div>
+  	<h2 class="Question">How do I cancel my hotel booking?</h2>
+  	<div class="answer">
+  		You may cancel your booking over the telephone with the help of our travel advisors. Call us at 1860-266-3333, we are open 24/7. OR Want to cancel a booking? <a href="">Click Here</a>
+  	</div>
+  </div>
+  <script src="jquery.js"></script>
+  <script>
+  	$(document).ready(function(){
+  		$('.faq h2').on('click',function(){
+  			$(this)
+  			.next()
+  			.slideToggle();
+  		});
+  	});
+  </script>
+</body>
+</html>
